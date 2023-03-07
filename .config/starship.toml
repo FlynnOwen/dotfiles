@@ -5,6 +5,8 @@ $git_branch\
 $git_commit\
 $git_status\
 $docker_context\
+$line_break\
+$character\
 """
 
 right_format = """
@@ -109,3 +111,7 @@ format = '[$localipv4]($style) '
 [rlang]
 symbol = '🦜'
 format = ' [$symbol]($style) '
+
+[character]
+success_symbol = ' [🌎]() '
+error_symbol = ' [🌋]() '
