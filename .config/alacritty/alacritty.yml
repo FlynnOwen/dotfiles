@@ -1,9 +1,9 @@
 # Colors (Ayu Dark)
 colors:
   # Default colors
-  # primary:
-  #  background: '#0A0E14'
-  #  foreground: '#B3B1AD'
+  #primary:
+    #background: '#0A0E14'
+    #foreground: '#B3B1AD'
 
   # Normal colors
   normal:
@@ -32,8 +32,9 @@ background_opacity: 0.99
 window:
   padding:
     x: 5
-    y: 10
-
+    y: 2
+  decorations: buttonless
+  dynamic_title: false
 font:
   normal:
     family: "Hack"
@@ -52,9 +53,3 @@ font:
 cursor:
   style:
     shape: Beam
-
-
-window:
-  decorations: Full
-
-dynamic_title: true
