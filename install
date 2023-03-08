@@ -6,33 +6,13 @@ os="$1"
 # Install packages
 if [ "$os" == 'mac' ];
 then 
-    # zsh
-    arch -arm64 brew install zsh
+    arch -arm64 brew install zsh zsh-completions starship alacritty neofetch nano cmatrix htop ranger tmux
     chsh -s /bin/zsh
-    arch -arm64 brew install zsh-completions
-    
-    # starship
-    arch -arm64 brew install starship
 
-    # alacritty
-    sudo port install alacritty
-
-    # neofetch
-    arch -arm64 brew install neofetch
 elif [ "$os" == 'ubuntu' ];
 then
-    # zsh
-    apt install zsh
-    
-    # starship
-    curl -sS https://starship.rs/install.sh | sh
-
-    # alacritty
-    sudo add-apt-repository ppa:aslatter/ppa
-    sudo apt install alacritty
-
-    # neofetch
-    sudo apt install neofetch
+    sudo apt install alacritty neofetch zsh zsh-completions tmux starship nano cmatrix htop ranger tmux
+    chsh -s $(which zsh) 
 fi
 
 # config files
