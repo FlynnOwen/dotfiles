@@ -42,3 +42,4 @@ mkdir -p ~/.config
 ln -f -s $PWD/.config/neofetch ~/.config
 ln -f -s $PWD/.config/alacritty ~/.config
 ln -f -s $PWD/.config/starship.toml ~/.config/starship.toml
+ln -f -s $PWD/.zshrc ~/.zshrc
