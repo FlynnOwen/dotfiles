@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+
+# config files
 mkdir -p ~/.config
 
+
+ln -f -s $PWD/.config/neofetch ~/.config/neofetch
+ln -f -s $PWD/.config/alacritty ~/.config/alacritty
 ln -f -s $PWD/.config/starship.toml ~/.config/starship.toml
