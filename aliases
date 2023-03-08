@@ -1,0 +1,17 @@
+# Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~"
+alias -- -="cd -"
+alias c="clear
+
+# Python3 as default
+alias python="python3"
+
+# Commonly used program aliases
+alias g="git"
+
+# M1 mac installation
+alias brew="arch -arm64 brew"
