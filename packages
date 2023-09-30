@@ -3,15 +3,33 @@
 # First argument is the operating system
 os="$1"
 
+packages_arr=(
+	"zsh"
+	"zsh-completions" 
+	"starship"
+	"alacritty"
+	"neofetch" 
+	"nano" 
+	"cmatrix" 
+	"htop" 
+	"ranger" 
+	"tmux"
+	"postgresql@14"
+	"docker"
+	"visual-studio-code"
+	"neovim"
+)
+packages_str="${packages_arr[*]}"
+
 # Install packages
 if [ "$os" == 'mac' ];
 then
-    arch -arm64 brew install zsh zsh-completions starship alacritty neofetch nano cmatrix htop ranger tmux
+    arch -arm64 brew install ${packages_str}
     chsh -s /bin/zsh
 
 elif [ "$os" == 'ubuntu' ];
 then
-    sudo apt install alacritty neofetch zsh zsh-completions tmux starship nano cmatrix htop ranger tmux
+    sudo apt install ${packages_str}
     chsh -s $(which zsh)
 fi
 
