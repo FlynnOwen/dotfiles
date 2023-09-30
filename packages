@@ -31,5 +31,7 @@ elif [ "$os" == 'ubuntu' ];
 then
     sudo apt install ${packages_str}
     chsh -s $(which zsh)
+else
+    echo "OS must be either 'mac' or 'ubuntu'"
 fi
 
