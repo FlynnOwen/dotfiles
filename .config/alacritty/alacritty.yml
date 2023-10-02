@@ -27,14 +27,13 @@ colors:
     cyan: '#95E6CB'
     white: '#FFFFFF'
 
-window.opacity: 0.99
-
 window:
   padding:
     x: 5
     y: 2
   decorations: buttonless
   dynamic_title: false
+  opacity: 0.9
 font:
   normal:
     family: "Hack"
