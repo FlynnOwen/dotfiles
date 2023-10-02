@@ -12,6 +12,7 @@ mkdir -p ~/.config
 # copy config
 ln -f -s $PWD/.config/neofetch ~/.config
 ln -f -s $PWD/.config/alacritty ~/.config
+ln -f -s $PWD/.config/nvim ~/.config
 ln -f -s $PWD/.config/starship.toml ~/.config/starship.toml
 ln -f -s $PWD/.zshrc ~/.zshrc
 ln -f -s $PWD/aliases ~/aliases
