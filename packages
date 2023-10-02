@@ -18,6 +18,7 @@ packages_arr=(
 	"docker"
 	"visual-studio-code"
 	"neovim"
+	"btop"
 )
 packages_str="${packages_arr[*]}"
 
