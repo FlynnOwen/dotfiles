@@ -20,6 +20,7 @@ packages_arr=(
 	"neovim"
 	"btop"
 	"font-space-mono-nerd-font"
+	"spotify-tui"
 )
 packages_str="${packages_arr[*]}"
 
