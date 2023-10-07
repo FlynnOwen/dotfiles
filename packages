@@ -21,6 +21,7 @@ packages_arr=(
 	"btop"
 	"font-space-mono-nerd-font"
 	"spotify-tui"
+	"amethyst"
 )
 packages_str="${packages_arr[*]}"
 
