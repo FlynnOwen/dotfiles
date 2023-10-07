@@ -19,6 +19,7 @@ packages_arr=(
 	"visual-studio-code"
 	"neovim"
 	"btop"
+	"font-space-mono-nerd-font"
 )
 packages_str="${packages_arr[*]}"
 

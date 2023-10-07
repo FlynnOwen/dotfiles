@@ -36,16 +36,17 @@ window:
   opacity: 0.9
 font:
   normal:
-    family: "Hack"
+    family: "SpaceMono Nerd Font"
     style: Regular
   bold:
-    family: "Hack"
+    family: "SpaceMono Nerd Font"
     style: bold
   italic:
-    family: "Hack"
+    family: "SpaceMono Nerd Font"
     style: italic
   bold_italic:
-    family: "Hack"
+    family: "SpaceMono Nerd Font"
+
     style: Bold Italic
 
 
