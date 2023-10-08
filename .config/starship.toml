@@ -14,7 +14,6 @@ $c\
 $python\
 ${custom.time_mood}\
 $time\
-$memory_usage\
 """
  
 # Disable the blank line at the start of the prompt
@@ -65,7 +64,7 @@ format = ' [$symbol]($style) '
 [time]
 disabled = false
 time_format = "%r" # Look up rust time formats
-style = "bold yellow"
+style = "#00c4ff"
 format = '[ $time ]($style)'
 
 [os]
@@ -95,12 +94,6 @@ echo "$time_symbol "
 """
 format = "[$output]($style) "
 when = "true"
-
-[memory_usage]
-style = "bold dimmed green"
-format = '[ ${ram_pct} ]($style) '
-threshold = 1
-disabled = false
 
 [localip]
 ssh_only = false
