@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+
+install_apt_packages() {
+    apt_packages_arr=(
+	"zsh"
+	"alacritty"
+	"neofetch" 
+	"nano" 
+	"cmatrix" 
+	"htop" 
+	"ranger" 
+	"tmux"
+	"postgresql-14"
+	"docker"
+	"neovim"
+    )
+    apt_packages_str="${apt_packages_arr[*]}"
+
+    sudo apt install ${apt_packages_str}
+    chsh -s "$(which zsh)"
+}
+
+install_snap_packages() {
+    snap_packages_arr=(
+	"code"
+    "btop"
+    "spt"
+    )
+    snap_packages_str="${snap_packages_arr[*]}"
+
+    sudo snap install ${snap_packages_str}
+}
+
+install_adhoc_packages() {
+    git clone https://github.com/zsh-users/zsh-autosuggestions "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}"/plugins/zsh-autosuggestions
+    # TODO: Clone to home directory.
+    git clone https://github.com/ryanoasis/nerd-fonts.git && ./install.sh SpaceMono
+
+    curl -sS https://starship.rs/install.sh | sh
+}
+
+
+install_apt_packages
+install_snap_packages
+install_adhoc_packages
