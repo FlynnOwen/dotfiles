@@ -1,7 +1,19 @@
+# Dotfiles
+
 My dotfiles used to set up a unix-based system.
 
-Install:
+Note that the OS-type is automatically inferred at run-time.
+
+Setting up:
+
+To setup, and install all required packages:
 
 ```
-./install {'install' | 'no_install'} {'mac' | 'ubuntu'}
+./setup --install
+```
+
+To only sync configuration files:
+
+```
+./setup 
 ```
