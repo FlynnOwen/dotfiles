@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+packages_arr=(
+	"zsh"
+	"zsh-completions" 
+	"starship"
+	"alacritty"
+	"neofetch" 
+	"nano" 
+	"cmatrix" 
+	"htop" 
+	"ranger" 
+	"tmux"
+	"postgresql@14"
+	"docker"
+	"visual-studio-code"
+	"neovim"
+	"btop"
+	"font-space-mono-nerd-font"
+	"spotify-tui"
+	"amethyst"
+)
+packages_str="${packages_arr[*]}"
+
+# Install packages
+arch -arm64 brew install ${packages_str}
+chsh -s /bin/zsh
