@@ -1,5 +1,4 @@
 format = """
-$localip\
 $directory\
 $git_branch\
 $git_commit\
