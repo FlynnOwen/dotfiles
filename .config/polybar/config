@@ -55,13 +55,13 @@ bottom = false
 background = ${colors.barbackground}
 foreground = ${colors.foreground}
 
-border-bottom-size  = 10
-border-top-size     = 10
+border-bottom-size  = 0
+border-top-size     = 5
 border-left-size  = 10
 border-right-size = 10
 line-size = 3pt
 
-border-size = 1pt
+border-size = 0pt
 border-color = #00000000
 
 padding-left = 0
