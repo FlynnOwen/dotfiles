@@ -75,7 +75,7 @@ separator-foreground = ${colors.disabled}
 font-0 = SpaceMono;2
 font-3 = SpaceMono:pixelsize=14;0
 
-modules-left = name xworkspaces xwindow 
+modules-left = name xworkspaces 
 modules-right = memory pulseaudio wlan battery 
 modules-center =  date
 
@@ -136,19 +136,6 @@ label-empty = %name%
 label-empty-foreground = ${colors.disabled}
 label-empty-background = ${colors.background-alt}
 label-empty-padding = 1
-
-
-
-
-
-
-[module/xwindow]
-type = internal/xwindow
-label = %title:0:60:...%
-
-
-
-
 
 
 [module/filesystem]
