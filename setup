@@ -18,9 +18,14 @@ mkdir -p ~/.config
 ln -f -s "$PWD"/.config/neofetch ~/.config
 ln -f -s "$PWD"/.config/alacritty ~/.config
 ln -f -s "$PWD"/.config/nvim ~/.config
+ln -f -s "$PWD"/.config/polybar ~/.config
+ln -f -s "$PWD"/.config/i3 ~/.config
+ln -f -s "$PWD"/.config/rofi ~/.config
 ln -f -s "$PWD"/.config/starship.toml ~/.config/starship.toml
 ln -f -s "$PWD"/.zshrc ~/.zshrc
 ln -f -s "$PWD"/aliases ~/aliases
 ln -f -s "$PWD"/.tmux.conf ~/.tmux.conf
+ln -f -s "$PWD"/wallpapers ~
 
-tmux && tmux source ~/.tmux.conf 
+
+# tmux && tmux source ~/.tmux.conf 
