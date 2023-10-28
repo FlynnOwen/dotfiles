@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
 install_apt_packages() {
+    # Needed for i3-gaps
+    sudo add-apt-repository ppa:regolith-linux/release
+
     apt_packages_arr=(
 	"zsh"
 	"alacritty"
@@ -13,6 +16,12 @@ install_apt_packages() {
 	"postgresql-14"
 	"docker"
 	"neovim"
+	"i3-gaps"
+	"feh"
+	"1password"
+	"polybar"
+	"picom"
+	"rofi"
     )
     apt_packages_str="${apt_packages_arr[*]}"
 
