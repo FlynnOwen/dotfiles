@@ -22,7 +22,7 @@ install_apt_packages() {
 
 install_snap_packages() {
     snap_packages_arr=(
-	"code"
+    "code"
     "btop"
     "spt"
     )
