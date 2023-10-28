@@ -19,6 +19,7 @@ packages_arr=(
 	"font-space-mono-nerd-font"
 	"spotify-tui"
 	"rectangle"
+	"1password"
 )
 packages_str="${packages_arr[*]}"
 
