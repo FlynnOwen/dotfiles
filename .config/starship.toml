@@ -66,14 +66,10 @@ time_format = "%r" # Look up rust time formats
 style = "#00c4ff"
 format = '[ $time ]($style)'
 
-[os]
-format = "[($name )]($style)"
-style = "bold blue"
-disabled = false
-
 [hostname]
 ssh_only = true
-format = "[$ssh_symbol](bold blue) [$hostname](bold red)"
+style = "bold red"
+format = "[$ssh_symbol](bold blue) [$hostname]($style)"
 disabled = false
 
 [custom.time_mood]
@@ -93,12 +89,6 @@ echo "$time_symbol "
 """
 format = "[$output]($style) "
 when = "true"
-
-[localip]
-ssh_only = false
-disabled = false
-style = "bold blue"
-format = '[$localipv4]($style) '
 
 [rlang]
 symbol = '🦜'
