@@ -5,7 +5,6 @@ brew tap homebrew/cask-fonts
 
 packages_arr=(
 	"zsh"
-	"zsh-completions" 
 	"starship"
 	"alacritty"
 	"neofetch" 
@@ -32,4 +31,5 @@ chsh -s /bin/zsh
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
+# zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
