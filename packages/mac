@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Access nerdfonts
+brew tap homebrew/cask-fonts
+
 packages_arr=(
 	"zsh"
 	"zsh-completions" 
@@ -13,10 +16,10 @@ packages_arr=(
 	"tmux"
 	"postgresql@14"
 	"docker"
+	"font-space-mono-nerd-font"
 	"visual-studio-code"
 	"neovim"
 	"btop"
-	"font-space-mono-nerd-font"
 	"spotify-tui"
 	"rectangle"
 	"1password"
@@ -26,3 +29,7 @@ packages_str="${packages_arr[*]}"
 # Install packages
 arch -arm64 brew install ${packages_str}
 chsh -s /bin/zsh
+
+# Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
