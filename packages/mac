@@ -1,12 +1,8 @@
 #!/usr/bin/env bash
 
-# Access nerdfonts
-brew tap homebrew/cask-fonts
-
-packages_arr=(
+brew_packages=(
 	"zsh"
 	"starship"
-	"alacritty"
 	"neofetch" 
 	"nano" 
 	"cmatrix" 
@@ -15,21 +11,35 @@ packages_arr=(
 	"tmux"
 	"postgresql@14"
 	"docker"
-	"font-space-mono-nerd-font"
-	"visual-studio-code"
 	"neovim"
 	"btop"
 	"spotify-tui"
+)
+brew_packages_str="${brew_packages[*]}"
+
+brew_cask_packages=(
 	"rectangle"
 	"1password"
+	"slack"
+	"visual-studio-code"
+	"alacritty"
+	"font-space-mono-nerd-font"
 )
-packages_str="${packages_arr[*]}"
+brew_cask_packages_str="${brew_cask_packages[*]}"
+
+# Access nerdfonts
+brew tap homebrew/cask-fonts
 
 # Install packages
 arch -arm64 brew install ${packages_str}
+arch -arm64 brew install --cask ${packages_str}
+
+# Change shell to zsh
 chsh -s /bin/zsh
 
-# Install oh-my-zsh
+# Custom Installs:
+
+# oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
