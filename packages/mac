@@ -14,6 +14,7 @@ brew_packages=(
 	"neovim"
 	"btop"
 	"spotify-tui"
+	"awscli"
 )
 brew_packages_str="${brew_packages[*]}"
 
@@ -25,6 +26,8 @@ brew_cask_packages=(
 	"alacritty"
 	"font-space-mono-nerd-font"
 	"signal"
+	"google-chrome"
+	"firefox"
 )
 brew_cask_packages_str="${brew_cask_packages[*]}"
 
