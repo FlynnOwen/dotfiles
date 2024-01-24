@@ -31,8 +31,8 @@ brew_cask_packages_str="${brew_cask_packages[*]}"
 brew tap homebrew/cask-fonts
 
 # Install packages
-arch -arm64 brew install ${packages_str}
-arch -arm64 brew install --cask ${packages_str}
+arch -arm64 brew install ${brew_packages_str}
+arch -arm64 brew install --cask ${brew_cask_packages_str}
 
 # Change shell to zsh
 chsh -s /bin/zsh
