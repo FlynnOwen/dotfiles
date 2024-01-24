@@ -24,6 +24,7 @@ brew_cask_packages=(
 	"visual-studio-code"
 	"alacritty"
 	"font-space-mono-nerd-font"
+	"signal"
 )
 brew_cask_packages_str="${brew_cask_packages[*]}"
 
