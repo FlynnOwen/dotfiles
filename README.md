@@ -3,7 +3,7 @@
 These dotfiles can be used to set up a unix-based system.
 
 <p align="center">
-<img width="600" height="400" src="resources/dotfiles_pic.png"/>
+<img width="800" height="500" src="resources/dotfiles_pic.png"/>
 </p>
 
 These are currently tested on a MacOS (silicon) system, as well as a Linux system running Ubuntu version 22.04. 
