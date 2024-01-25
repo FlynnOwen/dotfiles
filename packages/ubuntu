@@ -5,23 +5,23 @@ install_apt_packages() {
     sudo add-apt-repository ppa:regolith-linux/release
 
     apt_packages_arr=(
-	"zsh"
-	"alacritty"
-	"neofetch" 
-	"nano" 
-	"cmatrix" 
-	"htop" 
-	"ranger" 
-	"tmux"
-	"postgresql-14"
-	"docker"
-	"neovim"
-	"i3-gaps"
-	"feh"
 	"1password"
-	"polybar"
+	"alacritty"
+	"cmatrix" 
+	"docker"
+	"feh"
+	"htop" 
+	"i3-gaps"
+	"nano" 
+	"neofetch" 
+	"neovim"
 	"picom"
+	"polybar"
+	"postgresql-14"
+	"ranger" 
 	"rofi"
+	"tmux"
+	"zsh"
     )
     apt_packages_str="${apt_packages_arr[*]}"
 
@@ -31,8 +31,8 @@ install_apt_packages() {
 
 install_snap_packages() {
     snap_packages_arr=(
-    "code"
     "btop"
+    "code"
     "spt"
     )
     snap_packages_str="${snap_packages_arr[*]}"
