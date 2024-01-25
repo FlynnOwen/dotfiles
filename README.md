@@ -4,6 +4,7 @@ These dotfiles can be used to set up a unix-based system.
 
 <p align="center">
 <img width="800" height="500" src="resources/dotfiles_pic.png"/>
+<br>
 <i>MacOS Setup</i>
 </p>
 
