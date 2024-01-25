@@ -7,6 +7,9 @@ alias ~="cd ~"
 alias -- -="cd -"
 alias c="clear"
 
+# Utility
+alias l.="ls -d .*"
+
 # Python3 as default
 alias python="python3"
 
