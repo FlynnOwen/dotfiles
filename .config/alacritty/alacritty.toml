@@ -1,0 +1,47 @@
+[colors.bright]
+black = "#686868"
+blue = "#59C2FF"
+cyan = "#95E6CB"
+green = "#C2D94C"
+magenta = "#FFEE99"
+red = "#F07178"
+white = "#FFFFFF"
+yellow = "#FFB454"
+
+[colors.normal]
+black = "#01060E"
+blue = "#53BDFA"
+cyan = "#90E1C6"
+green = "#91B362"
+magenta = "#FAE994"
+red = "#EA6C73"
+white = "#C7C7C7"
+yellow = "#F9AF4F"
+
+[cursor.style]
+shape = "Beam"
+
+[font.bold]
+family = "SpaceMono Nerd Font"
+style = "bold"
+
+[font.bold_italic]
+family = "SpaceMono Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "SpaceMono Nerd Font"
+style = "italic"
+
+[font.normal]
+family = "SpaceMono Nerd Font"
+style = "Regular"
+
+[window]
+decorations = "buttonless"
+dynamic_title = false
+opacity = 0.9
+
+[window.padding]
+x = 5
+y = 2
