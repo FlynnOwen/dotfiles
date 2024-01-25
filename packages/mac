@@ -6,6 +6,7 @@ brew_packages=(
 	"cmatrix" 
 	"docker"
 	"htop" 
+  "just"
 	"nano" 
 	"neofetch" 
 	"neovim"
@@ -14,6 +15,7 @@ brew_packages=(
 	"spotify-tui"
 	"starship"
 	"tmux"
+  "tree"
 	"zsh"
 )
 brew_packages_str="${brew_packages[*]}"
@@ -26,6 +28,7 @@ brew_cask_packages=(
 	"google-chrome"
 	"rectangle"
 	"signal"
+  "spotify"
 	"slack"
 	"visual-studio-code"
 )
