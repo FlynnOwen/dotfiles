@@ -6,7 +6,6 @@ These dotfiles can be used to set up a unix-based system.
 <img width="400" height="300" src="resources/dotfiles_pic.png"/>
 </p>
 
-## Summary
 These are currently tested on a MacOS (silicon) system, as well as a Linux system running Ubuntu version 22.04. 
 
 A collection of packages and software tools are downloaded (see `packages/` for a full list of packages by OS), and then configuration for some of these software tools are synlinked to the expected location within the machine (see `config/` for a full list of configuration files used). Aliases are also sourced.
