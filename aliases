@@ -6,7 +6,6 @@ alias .....="cd ../../../.."
 alias ~="cd ~"
 alias -- -="cd -"
 alias c="clear"
-alias cddots="cd ~/dotfiles"
 
 # Utility
 alias l.="ls -d .*"
@@ -18,6 +17,7 @@ alias python="python3"
 alias brew="arch -arm64 brew"
 
 # dotfiles
+alias cddots="cd ~/dotfiles"
 alias dotssync="cddots && git pull"
 
 # OS specific
