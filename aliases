@@ -19,7 +19,7 @@ alias brew="arch -arm64 brew"
 
 # dotfiles
 alias dotscd="cd ~/dotfiles"
-alias dotssync="dotscd && git pull"
+alias dotssync="dotscd && git pull && cd -"
 
 # OS specific
 if [[ "$(uname)" == "Darwin" ]];
