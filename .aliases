@@ -19,7 +19,9 @@ alias brew="arch -arm64 brew"
 
 # dotfiles
 alias cddots="cd ~/dotfiles"
-alias syncdots="cddots && git pull && cd -"
+alias reloaddots="cddots && ./setup && reload && cd -"
+alias resyncdots="cddots && git pull && ./setup && reload && cd -"
+alias reinstalldots="cddots && git pull && ./setup --install && reload && cd -"
 
 # OS specific
 if [[ "$(uname)" == "Darwin" ]];

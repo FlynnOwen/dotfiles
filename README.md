@@ -28,10 +28,16 @@ Then to setup and install all required packages:
 ./setup --install
 ```
 
-To only sync configuration files <i> (requires repo to be under `~/dotfiles`) </i>:
+To sync configuration files with repo <i> (requires repo to be under `~/dotfiles`) </i>:
 
 ```
-syncdots
+resyncdots
+```
+
+To sync packages and configuration files with repo <i> (requires repo to be under `~/dotfiles`) </i>:
+
+```
+reinstalldots
 ```
 
 ## Notes
