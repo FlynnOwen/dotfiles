@@ -16,7 +16,13 @@ The packages and configuration are slightly different between Linux and MacOS se
 
 ## Usage
 
-To setup and install all required packages:
+Some aliases (although only a couple) depend on these dotfiles being cloned to the home directory. To do so, run run this command:
+
+```
+cd ~ && git clone git@github.com:FlynnOwen/dotfiles.git
+```
+
+Then to setup and install all required packages:
 
 ```
 ./setup --install
@@ -26,6 +32,12 @@ To only sync configuration files:
 
 ```
 ./setup 
+```
+
+or alias
+
+```
+dotssync
 ```
 
 ## Notes
