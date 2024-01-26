@@ -28,13 +28,7 @@ Then to setup and install all required packages:
 ./setup --install
 ```
 
-To only sync configuration files:
-
-```
-./setup 
-```
-
-or alias <i> (requires repo to be under `~/dotfiles`) </i>
+To only sync configuration files <i> (requires repo to be under `~/dotfiles`) </i>:
 
 ```
 dotssync
