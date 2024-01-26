@@ -17,7 +17,7 @@ alias python="python3"
 alias brew="arch -arm64 brew"
 
 # dotfiles
-alias cddots="cd ~/dotfiles"
+alias dotscd="cd ~/dotfiles"
 alias dotssync="cddots && git pull"
 
 # OS specific
