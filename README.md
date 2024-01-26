@@ -1,4 +1,4 @@
-# Dotfiles
+<h1 align="center" Dotfiles >
 
 These dotfiles can be used to set up a unix-based system.
 
