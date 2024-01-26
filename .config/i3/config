@@ -193,6 +193,6 @@ gaps outer 8
 for_window [class="^.*"] border pixel 1
 
 # Manages the wallpaper
-exec_always --no-startup-id feh --bg-scale $HOME/wallpapers/Trees.png
+exec_always --no-startup-id feh --bg-scale $HOME/wallpapers/floralskull.png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh --forest
 exec_always --no-startup-id picom --config $HOME/.config/picom/config.conf
