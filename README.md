@@ -16,6 +16,8 @@ The packages and configuration are slightly different between Linux and MacOS se
 
 ## Usage
 
+### Install
+
 Some aliases (although only a couple) depend on these dotfiles being cloned to the home directory. To do so, run run this command:
 
 ```
@@ -27,6 +29,8 @@ Then to setup and install all required packages:
 ```
 ./setup --install
 ```
+
+### Syncing Dotfiles With Git
 
 To sync configuration files with repo <i> (requires repo to be under `~/dotfiles`) </i>:
 
