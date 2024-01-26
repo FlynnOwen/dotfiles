@@ -35,6 +35,5 @@ dotssync
 ```
 
 ## Notes
-Note that the OS is automatically inferred at run-time.
-
-If using Ubuntu, requires version >= 22.04.
+- The OS is automatically inferred at run-time.
+- If using Ubuntu, requires version >= 22.04.
