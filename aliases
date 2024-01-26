@@ -6,6 +6,7 @@ alias .....="cd ../../../.."
 alias ~="cd ~"
 alias -- -="cd -"
 alias c="clear"
+alias cddots="cd ~/dotfiles"
 
 # Utility
 alias l.="ls -d .*"
@@ -15,3 +16,13 @@ alias python="python3"
 
 # M1 mac installation
 alias brew="arch -arm64 brew"
+
+# dotfiles
+alias dotssync="cddots && git pull"
+
+# OS specific
+if [[ "$(uname)" == "Darwin" ]];
+    then alias o="open ."
+elif [[ "$(uname)" == "Linux" ]];
+    then alias o="xdg-open"
+fi
