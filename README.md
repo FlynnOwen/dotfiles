@@ -34,7 +34,7 @@ To only sync configuration files:
 ./setup 
 ```
 
-or alias
+or alias <i> (requires repo to be under `~/dotfiles`) </i>
 
 ```
 dotssync
