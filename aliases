@@ -9,6 +9,7 @@ alias c="clear"
 
 # Utility
 alias l.="ls -d .*"
+alias reload="source ~/.zshrc"
 
 # Python3 as default
 alias python="python3"
@@ -18,7 +19,7 @@ alias brew="arch -arm64 brew"
 
 # dotfiles
 alias dotscd="cd ~/dotfiles"
-alias dotssync="cddots && git pull"
+alias dotssync="dotscd && git pull"
 
 # OS specific
 if [[ "$(uname)" == "Darwin" ]];
