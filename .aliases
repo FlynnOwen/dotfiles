@@ -5,10 +5,10 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ~="cd ~"
 alias -- -="cd -"
-alias c="clear"
 
 # Utility
 alias l.="ls -d .*"
+alias c="clear"
 alias reload="source ~/.zshrc"
 
 # Python3 as default
