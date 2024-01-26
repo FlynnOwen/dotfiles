@@ -31,7 +31,7 @@ Then to setup and install all required packages:
 To only sync configuration files <i> (requires repo to be under `~/dotfiles`) </i>:
 
 ```
-dotssync
+syncdots
 ```
 
 ## Notes

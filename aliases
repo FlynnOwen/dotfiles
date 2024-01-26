@@ -18,8 +18,8 @@ alias python="python3"
 alias brew="arch -arm64 brew"
 
 # dotfiles
-alias dotscd="cd ~/dotfiles"
-alias dotssync="dotscd && git pull && cd -"
+alias cddots="cd ~/dotfiles"
+alias syncdots="cddots && git pull && cd -"
 
 # OS specific
 if [[ "$(uname)" == "Darwin" ]];
