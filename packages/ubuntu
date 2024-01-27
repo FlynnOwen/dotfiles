@@ -7,11 +7,13 @@ install_apt_packages() {
     apt_packages_arr=(
 	"1password"
 	"alacritty"
+    "awscli"
 	"cmatrix" 
 	"docker"
 	"feh"
 	"htop" 
 	"i3-gaps"
+    "just"
 	"nano" 
 	"neofetch" 
 	"neovim"
@@ -21,6 +23,7 @@ install_apt_packages() {
 	"ranger" 
 	"rofi"
 	"tmux"
+    "tree"
 	"zsh"
     )
     apt_packages_str="${apt_packages_arr[*]}"
@@ -33,6 +36,8 @@ install_snap_packages() {
     snap_packages_arr=(
     "btop"
     "code"
+    "firefox"
+    "signal-desktop"
     "spt"
     )
     snap_packages_str="${snap_packages_arr[*]}"
@@ -41,10 +46,12 @@ install_snap_packages() {
 }
 
 install_adhoc_packages() {
+    # zsh auto-suggestions
     git clone https://github.com/zsh-users/zsh-autosuggestions "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}"/plugins/zsh-autosuggestions
     # TODO: Clone to home directory.
+    # nerdfonts
     git clone https://github.com/ryanoasis/nerd-fonts.git && ./install.sh SpaceMono
-
+    # starship
     curl -sS https://starship.rs/install.sh | sh
 }
 
