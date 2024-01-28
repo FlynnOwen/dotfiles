@@ -27,5 +27,5 @@ alias reinstalldots="cddots && git pull && ./setup --install && reload && cd -"
 if [[ "$(uname)" == "Darwin" ]];
     then alias o="open ."
 elif [[ "$(uname)" == "Linux" ]];
-    then alias o="xdg-open"
+    then alias {o,open}="xdg-open ."
 fi
