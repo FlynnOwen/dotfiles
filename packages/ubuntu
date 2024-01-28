@@ -7,7 +7,7 @@ install_apt_packages() {
     apt_packages_arr=(
 	"1password"
 	"alacritty"
-    	"awscli"
+    "awscli"
 	"cmatrix" 
 	"docker"
 	"feh"
@@ -22,7 +22,7 @@ install_apt_packages() {
 	"ranger" 
 	"rofi"
 	"tmux"
-    	"tree"
+    "tree"
 	"zsh"
     )
     apt_packages_str="${apt_packages_arr[*]}"
