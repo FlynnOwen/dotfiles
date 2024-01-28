@@ -13,7 +13,6 @@ install_apt_packages() {
 	"feh"
 	"htop" 
 	"i3-gaps"
-    	"just"
 	"nano" 
 	"neofetch" 
 	"neovim"
@@ -50,7 +49,7 @@ install_adhoc_packages() {
     git clone https://github.com/zsh-users/zsh-autosuggestions "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}"/plugins/zsh-autosuggestions
     # TODO: Clone to home directory.
     # nerdfonts
-    git clone https://github.com/ryanoasis/nerd-fonts.git && ./install.sh SpaceMono
+    # git clone https://github.com/ryanoasis/nerd-fonts.git && ./install.sh SpaceMono
     # starship
     curl -sS https://starship.rs/install.sh | sh
 }
