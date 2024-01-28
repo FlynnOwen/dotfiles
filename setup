@@ -25,6 +25,7 @@ then
   ln -f -s "$PWD"/.config/i3 ~/.config
   ln -f -s "$PWD"/.config/rofi ~/.config
   ln -f -s "$PWD"/.config/picom ~/.config
+  ln -f -s "$PWD"/.config/vscode/settings.json ~/.config/Code/User/settings.json
 fi 
 
 # symlimk OS-agnostic config
