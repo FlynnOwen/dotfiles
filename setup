@@ -36,8 +36,8 @@ ln -f -s "$PWD"/.config/starship.toml ~/.config/starship.toml
 ln -f -s "$PWD"/.zshrc ~/.zshrc
 ln -f -s "$PWD"/.aliases ~/.aliases
 ln -f -s "$PWD"/.functions ~/.functions
-ln -f -s "$PWD"/.tmux.conf ~/.tmux.conf
+ln -f -s "$PWD"/.config/.tmux.conf ~/.tmux.conf
 ln -f -s "$PWD"/wallpapers ~
 
 
-# tmux && tmux source ~/.tmux.conf 
+tmux source ~/.tmux.conf 
