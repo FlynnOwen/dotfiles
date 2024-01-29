@@ -37,6 +37,7 @@ ln -f -s "$PWD"/.zshrc ~/.zshrc
 ln -f -s "$PWD"/.aliases ~/.aliases
 ln -f -s "$PWD"/.functions ~/.functions
 ln -f -s "$PWD"/.config/.tmux.conf ~/.tmux.conf
+ln -f -s "$PWD"/.config/.gitconfig ~/.gitconfig
 ln -f -s "$PWD"/wallpapers ~
 
 
