@@ -9,6 +9,7 @@ alias -- -="cd -"
 # Git
 alias g="git"
 alias ga="git add"
+alias gap="git add -p"
 alias gb+="git branch -vv --all"
 alias gb="git branch -vv"
 alias gbd="git branch -D"
