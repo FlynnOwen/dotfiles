@@ -36,6 +36,7 @@ install_snap_packages() {
     "btop"
     "code"
     "firefox"
+    "ruff"
     "signal-desktop"
     "spt"
     )
