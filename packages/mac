@@ -12,6 +12,7 @@ brew_packages=(
 	"neofetch" 
 	"neovim"
 	"postgresql@14"
+	"pyenv"
 	"ranger" 
 	"spotify-tui"
 	"starship"
