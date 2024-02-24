@@ -8,6 +8,7 @@ install_apt_packages() {
 	"1password"
 	"alacritty"
         "awscli"
+  "bat"
 	"cmatrix" 
 	"docker"
 	"feh"
