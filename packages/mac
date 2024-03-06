@@ -10,6 +10,7 @@ brew_packages=(
   	"just"
 	"mac"
 	"nano" 
+	"ncdu"
 	"neofetch" 
 	"neovim"
 	"postgresql@14"
