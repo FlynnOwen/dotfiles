@@ -4,6 +4,7 @@ brew_packages=(
 	"awscli"
 	"btop"
         "bat"
+        "colima"
 	"cmatrix" 
 	"docker"
 	"htop" 
