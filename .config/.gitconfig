@@ -11,3 +11,6 @@
 
 [alias]
   lf = log --pretty=lf --graph
+
+[push]
+  autoSetupRemote = true
