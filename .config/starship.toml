@@ -83,7 +83,7 @@ format = '[ $time ]($style)'
 ssh_only = true
 style = "bold red"
 format = "[$ssh_symbol](bold blue) [$hostname]($style)"
-disabled = false
+disabled = true
 
 [custom.time_mood]
 disabled = false
@@ -102,10 +102,6 @@ echo "$time_symbol "
 """
 format = "[$output]($style) "
 when = "true"
-
-[rlang]
-symbol = '🦜'
-format = ' [$symbol]($style) '
 
 [character]
 success_symbol = ' [🌎]() '
