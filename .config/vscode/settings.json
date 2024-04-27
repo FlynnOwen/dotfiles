@@ -1,3 +1,5 @@
 {
-    "workbench.colorTheme": "Atom One Dark"
+    "workbench.colorTheme": "Atom One Dark",
+    "indentRainbow.indicatorStyle": "light",
+    "tabnine.experimentalAutoImports": true
 }
