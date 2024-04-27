@@ -28,7 +28,10 @@ truncate_to_repo = true
 [docker_context]
 symbol = "🐳"
 format = '[\[$symbol$context\]]($style) $path'
- 
+
+[fill]
+symbol = " "
+
 [git_branch]
 symbol = "🧬"
 format = '[$symbol$branch(:$remote_branch)]($style)'
