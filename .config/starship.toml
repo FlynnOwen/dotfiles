@@ -2,15 +2,17 @@ format = """
 $directory\
 $git_branch\
 $git_commit\
+$git_metrics\
 $git_status\
+$fill\
 $docker_context\
+$python\
+$c\
 $line_break\
 $character\
 """
 
 right_format = """
-$c\
-$python\
 ${custom.time_mood}\
 $time\
 """
@@ -24,20 +26,26 @@ truncation_length = 5
 truncate_to_repo = true
  
 [docker_context]
-symbol = "🐳 "
-format = '[ $symbol $context ]($style) $path'
+symbol = "🐳"
+format = '[\[$symbol$context\]]($style) $path'
  
 [git_branch]
-symbol = "🌠"
-format = '[$symbol $branch(:$remote_branch)]($style) '
+symbol = "🧬"
+format = '[$symbol$branch(:$remote_branch)]($style)'
 
 [git_commit]
-commit_hash_length = 4
+style = "177"
+commit_hash_length = 7
 tag_disabled = false
-format = '[\($hash$tag\)]($style) '
- 
+only_detached = false
+format = '[\[$hash$tag\]]($style)'
+
+[git_metrics]
+disabled = false
+format = '([\[+$added]($added_style))([-$deleted\]]($deleted_style))'
+
 [git_status]
-style = "bold blue"
+style = "bold fg:blue"
 
 # overriding defaults
 untracked = ""
@@ -51,14 +59,16 @@ stashed = "💰"
 ahead = "✨⇡${ahead_count}"
 diverged = "😵⇕⇡${ahead_count}⇣${behind_count}"
 behind = "⇣${behind_count}"
-staged = '[++\($count📬\)](green)'
+staged = '[++$count📬](green)'
 
 [c]
 symbol = '🌊'
-format = ' [$symbol]($style) '
+format = '[\[$symbol\]]($style)'
   
 [python]
-format = ' [$symbol]($style) '
+symbol = '🐍'
+pyenv_version_name = true
+format = '[\[${symbol}${version}\]]($style)'
  
 [time]
 disabled = false
