@@ -21,7 +21,7 @@ $time\
 add_newline = true
  
 [directory]
-format = "[ $path ]($style) "
+format = "[ ╭─$path ]($style) "
 truncation_length = 5
 truncate_to_repo = true
  
@@ -104,5 +104,5 @@ format = "[$output]($style) "
 when = "true"
 
 [character]
-success_symbol = ' [🌎]() '
-error_symbol = ' [🌋]() '
+success_symbol = ' [╰─🌎](bold cyan) '
+error_symbol = ' [╰─🌋](bold cyan) '
