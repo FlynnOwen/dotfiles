@@ -5,3 +5,20 @@ function mcd() {
   mkdir -p "${1}" 
   cd "${1}"
 }
+
+ccommit(){
+    echo "    [type]([scope]): [subject]
+
+    Possible [type]s:
+    [fix]: A bug fix.
+    [feat]: A new feature.
+    [build]: Changes that affect the build system or external dependencies.
+    [chore]: Other changes that don't modify test or src files.
+    [ci]: Changes to CI config files.
+    [docs]: Changes to documentation.
+    [style]: Changes that do not effect functionality of code (e.g formatting)
+    [refactor]: Code refactoring.
+    [perf]: Performance imrpovements.
+    [test]: Adding or changing tests.
+    [revert]: Reverting a previous commit."
+}
