@@ -6,6 +6,10 @@ function mcd() {
   cd "${1}"
 }
 
+hgrep() {
+  history | grep "$@"
+}
+
 ccommit(){
   # Syntax and notation for conventional commits
   # [Reference](https://www.conventionalcommits.org/en/v1.0.0/)

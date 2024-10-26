@@ -1,5 +1,7 @@
 {
     "workbench.colorTheme": "Atom One Dark",
     "indentRainbow.indicatorStyle": "light",
-    "tabnine.experimentalAutoImports": true
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
 }
