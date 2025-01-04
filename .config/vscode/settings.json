@@ -19,4 +19,8 @@
     "workbench.statusBar.visible": false,
     "workbench.tips.enabled": false,
     "workbench.editor.closeOnFileDelete": true,
+    "workbench.panel.showLabels": false,
+    "chat.commandCenter.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "workbench.layoutControl.enabled": false,
 }
