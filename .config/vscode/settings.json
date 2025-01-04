@@ -1,7 +1,22 @@
 {
-    "workbench.colorTheme": "Atom One Dark",
+    "editor.folding": false, // removes code folding arrows
+    "workbench.colorTheme": "Ayu Mirage Bordered",
     "indentRainbow.indicatorStyle": "light",
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
+    "workbench.iconTheme": "Monokai Classic Icons",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "visible",
+    "editor.scrollBeyondLastLine": false,
+    "editor.tabCompletion": "on",
+    "editor.fontVariations": false,
+    "editor.fontWeight": "normal",
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.enabled": false,
+    "workbench.panel.opensMaximized": "never",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": false,
+    "workbench.tips.enabled": false,
+    "workbench.editor.closeOnFileDelete": true,
 }
